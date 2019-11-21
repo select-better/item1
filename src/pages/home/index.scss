@@ -1,0 +1,11 @@
+
+.home-box{
+	flex-grow: 1;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	// 小点的样式
+	.slider-decorator-0{
+		margin-bottom: .1rem;
+	}
+}

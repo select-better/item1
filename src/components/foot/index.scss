@@ -1,0 +1,35 @@
+
+@import '../../assets/global-style/theme.scss';
+@import '../../assets/global-style/border.scss';
+
+footer{
+	width: 100%;
+	height: 0.5rem;
+	flex-shrink: 0;
+	ul{
+		width: 100%;
+		height: 100%;
+		display: flex;
+		align-content: center;
+		justify-content: space-around;
+		@include border_bottom( #ccc,top );
+		a{
+			display: flex;
+			height: 100%;
+			padding: 0.05rem 0rem;
+			box-sizing: border-box;
+			flex-direction: column;
+			justify-content: space-around;
+		    color: black;
+			&.active{
+				color: $theme-color;
+				em{
+					 color: $theme-color;
+				}
+				span{
+					color: $theme-color;
+				}
+			}
+		}
+	}
+}

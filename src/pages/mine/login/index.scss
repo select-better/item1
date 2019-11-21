@@ -1,0 +1,24 @@
+
+
+.login-box{
+	flex: 1;
+	overflow: hidden;
+	h2{
+		margin-bottom: .2rem;
+	}
+	p{
+		height: .4rem;
+	}
+	a{
+		color: red;
+	}
+	.get-in{
+		width: .7rem;
+		height: .4rem;
+		background: blue;
+		color: white;
+		border-color: blue;
+		margin-top: .2rem;
+	}
+
+}

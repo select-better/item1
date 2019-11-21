@@ -1,0 +1,25 @@
+
+
+.register-box{
+	flex: 1;
+	overflow: hidden;
+	h2{
+		margin-bottom: .2rem;
+	}
+	p{
+		height: .4rem;
+	}
+	a{
+		color: red;
+	}
+	.register-in{
+		width: .7rem;
+		height: .4rem;
+		background: lightseagreen;
+		color: white;
+		border-color: lightseagreen;
+		margin-top: .2rem;
+		border-radius: .1rem;
+	}
+
+}

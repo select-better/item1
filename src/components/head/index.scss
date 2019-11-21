@@ -1,0 +1,21 @@
+@import '../../assets/global-style/theme.scss';
+
+header{
+	width: 100%;
+	height: .505rem;
+	flex-shrink: 0;
+	background: $theme_color;
+	display: flex !important;
+	padding: 0rem 0.1rem!important;
+	box-sizing: border-box;
+	align-items: center;
+	h3{
+		flex-grow: 1;
+		color: white;
+		font-size: 20px;
+	}
+	span{
+		color: white;
+		font-size: 20px;
+	}
+}

@@ -1,0 +1,33 @@
+@import 'assets/global-style/theme.scss';
+@import 'assets/global-style/border.scss';
+
+.nav-list{
+	width: 100%;
+	padding: 0 .1rem ;
+	box-sizing: border-box;
+	height: .4rem;
+	 flex-shrink: 0;
+	@include border-bottom( #ccc,all);
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	.middle-nav-list{
+		display: flex;
+		height: 100%;
+		line-height: 100%;
+		li{
+			margin-right: .15rem;
+			line-height: 100%;
+			a{  
+				display: block;
+				height: 100%;
+				line-height: .4rem;
+				padding: 0 .1rem;
+				&.active{
+					color: $theme_color;
+				    @include border-bottom( $theme_color,bottom);
+				}
+			}
+		}
+	}
+}
